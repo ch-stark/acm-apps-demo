@@ -25,7 +25,7 @@ policies:
     - setup
   disabled: false
   manifests:
-    - path: ../../../input/configurations/submariner/submariner-templatized-aws.yaml
+    - path: ../input/configurations/submariner/submariner-templatized-aws.yaml
 - name: policy-gitops
   categories:
     - setup
@@ -33,7 +33,7 @@ policies:
     - setup
   disabled: false
   manifests:
-    - path: ../../../input/operators/gitopsoperator.yaml
+    - path: ../input/operators/gitopsoperator.yaml
 - name: policy-argoapp
   categories:
     - setup
@@ -41,7 +41,7 @@ policies:
     - setup
   disabled: false
   manifests:
-    - path: ../../../input/gitops
+    - path: ../input/gitops
 - name: policy-certmanagerfull
   categories:
     - setup
@@ -49,7 +49,7 @@ policies:
     - setup
   disabled: false
   manifests:
-    - path: ../../input/../certmanager
+    - path: ../input/certmanager
 - name: policy-config-backup-restore
   categories:
     - setup
@@ -57,5 +57,5 @@ policies:
     - setup
   disabled: false
   manifests:
-   - path: ../../input/../hub_backup_restore
+   - path: ../input/hub_backup_restore
       
