@@ -1,3 +1,0 @@
-APP.4.4.A20 Verschlüsselte Datenhaltung bei Pods (H)
-Die Dateisysteme mit den persistenten Daten der Control Plane (hier besonders etcd) und der
-Anwendungsdienste SOLLTEN verschlüsselt werden.
